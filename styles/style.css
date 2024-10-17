@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* background */
+    --background-primary:#F4F5FB;
+    --background-secondary:#FFFFFF;
+
+    /* Cores */
+    --color-brand:#CA3884;
+    --color-brand-hover:#A52C6B;
+    --color-danger:#C93847;
+
+
+    /* Content */
+    --content-primary:#080B12;
+    --content-secondary:#374151;
+    --content-terciary:#9CA3AF;
+
+    /* Border */
+    --border-primary:#D1D5DB;
+    --border-hover:#B9C2D0;
+
+
+    /* Fontes */
+
+    --font-family: 'Inter', 'sans-serif';
+    --h1: 700 24px/135% var(--font-family);
+    --label: 600 16px/135% var(--font-family);
+    --paragraph: 500 16px/135% var(--font-family);
+    --link: 500 16px/135% var(--font-family);
+
+
+
+
+
+
+}
+
+body {
+    background-color: var(--background-primary);
+    margin: auto;
+    
+    
+    
+}
+
+h1 {
+    font: var(--h1);
+    
+}
+
+h2 {
+    font: var(--label);
+    color: var(--color-brand);
+}
+
+
+
+img {
+    max-width:100%;
+}
+
+
+
+
+
+header {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+div {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-inline: 500px;
+    gap: 24px;
+    
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+main form {
+    padding-block: 40px;
+    display: flex;
+    
+    
+    align-items: center;
+}
+
+
+input {
+    width: 451px;
+    height: 51px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border: 2px solid #D1D5DB;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 0px 18px;
+   
+    
+
+
+
+
+
+
+
+  
+}
+
+#button-add {
+    background-color: var(--color-brand);
+    color: #FFFFFF;
+    width: 160px;
+    height: 50px;
+    border-radius: 12px;
+    border: var(--border-primary);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 0px 18px;
+    
+   
+
+
+
+
+
+
+
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+
+.item {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+#hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
