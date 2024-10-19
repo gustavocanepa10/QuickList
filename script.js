@@ -4,6 +4,7 @@ const form = document.querySelector("form")
 
 
 
+
 input.addEventListener("input", () => {
     // console.log(input.value)
 })
@@ -13,20 +14,30 @@ input.addEventListener("input", () => {
 function AddItem () {
     
     const NovoItem = document.createElement("li")
-    NovoItem.classList.add("item")
+    NovoItem.classList.add("li")
     const NomeItem = document.createElement("span")
+    
+  
 
 
     
 
     NomeItem.innerHTML = `
+                
                 <span>${input.value}</span>
             
             <button>
-                <img src="assets/Frame-3.svg" alt="">
+                <img src="assets/icons/Frame.png" alt="">
             </button>
                 
             `
+    
+
+
+            
+           
+
+           
 
         
         
@@ -40,9 +51,9 @@ function AddItem () {
 
     
     
+    
 
-
-
+    
     
 
         

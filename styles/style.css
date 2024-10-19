@@ -61,7 +61,7 @@ h2 {
 
 
 
-img {
+.logo {
     max-width:100%;
 }
 
@@ -187,7 +187,10 @@ list-style: none;
 width: 627px;
 height: 100vh;
 gap: 12px;
-border-radius: 12px;
+
+
+
+
 
 
 
@@ -202,10 +205,13 @@ li {
    
     height: 70px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    background: white;
+
+    background-color:var(--background-secondary);
+    border-radius: 12px;
+    
+    
+   
     
     
 }
@@ -213,22 +219,49 @@ li {
 
 
 
-span {
-    font-family: 'Inter', 'sans-serif';
-    padding-inline: 10px;
+.result span {
+font-family: 'Inter', 'sans-serif';
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 12px;
+
+width: 627px;
+height: 49px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+
 }
 
 
-.button {
+
+.result button {
+    display: flex;
+    
     
     background-color: transparent;
+    border: none;
+    
+    
+    cursor: pointer;
+    
+
+    
+    
+    
+   
+
 }
 
-
-
-
-
-
+.result button img {
+    height: 20px;
+    width: 20px;
+    
+    
+}
 
 
 
