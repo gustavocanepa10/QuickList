@@ -202,6 +202,8 @@ li {
     align-items: center;
     gap: 12px;
     padding: 12px;
+    border: 1 solid black;
+    box-shadow: #080B12;
     
     
     
@@ -211,12 +213,13 @@ li {
 
 span {
     font-family: 'inter';
-    color: var(--content-secondary);
+    color: black;
     padding: 8px 10px;
     width: 503px;
     height: 33px;
     display: flex;
     align-items: center;
+    box-shadow: #080B12;
 
 }
 
@@ -231,6 +234,7 @@ button {
     margin-right: 12px;
     cursor: pointer;
     
+    
 }
 
 
@@ -238,6 +242,12 @@ button {
 
 .hide {
     display: none;
+}
+
+
+#id {
+    display: flex;
+    justify-content: flex-end;
 }
 
 

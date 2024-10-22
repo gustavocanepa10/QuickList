@@ -3,13 +3,14 @@ const listaItem = document.querySelector("ul")
 const form = document.querySelector("form")
 
 
+
 form.addEventListener("submit", (event) => {
     event.preventDefault()
 
 
 
     if (input.value !== "") {
-        adicionarItem()
+        manageItem()
     
     
     } else {
@@ -36,32 +37,64 @@ form.addEventListener("submit", (event) => {
 
 
 
-function adicionarItem () {
+function manageItem () {
 
+    // Adicionar item
+    
     const NovoItem = document.createElement("li")
 
     NovoItem.classList.add("li")
 
     const NomeItem = document.createElement("span")
 
-    NomeItem.innerHTML =`<span>${input.value}</span>
+    NomeItem.textContent = input.value
 
-    <button type="button">
-        <img src="assets/icons/Frame-3.svg" alt="">
-    </button>
-   `
-                    
-                    
+    
+   
 
    
 
-    
 
-    
+                    
     NovoItem.append(NomeItem)
 
     listaItem.append(NovoItem)
     console.log(NovoItem)
+
+
+    const removebutton = document.createElement("button")
+    removebutton.innerHTML= `<img src="assets/icons/Frame-3.svg" alt="">`
+
+    NovoItem.append(removebutton)
+
+
+    input.value = ""
+
+    
+
+
+    // Remover item
+
+
+   
+
+    removebutton.addEventListener("click", (event) => {
+        event.preventDefault()
+        console.log("Clique!")
+
+
+        NovoItem.remove(listaItem)
+
+
+
+
+
+
+    })
+
+    
+
+
 
    
     
