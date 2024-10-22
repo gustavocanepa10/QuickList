@@ -5,5 +5,9 @@ QuickList
 Funcionalidades
 
 
-Adicionar Itens: Adicione novos itens à lista preenchendo o campo e clicando em "Adicionar item".
-Remover Itens: Remova itens clicando no icone da lixeira
+Adicionar Itens: 
+Adicione novos itens à lista preenchendo o campo e clicando em "Adicionar item".
+
+
+Remover Itens: 
+Remova itens clicando no icone da lixeira
