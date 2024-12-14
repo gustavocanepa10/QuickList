@@ -15,4 +15,4 @@ O **QuickList** é uma aplicação web simples que permite aos usuários adicion
 - **Adicionar Itens**: Permite ao usuário inserir novos itens na lista.
 - **Remover Itens**: Possibilita a exclusão de itens existentes da lista.
 
-Deploy: https://quicklist-pink.vercel.app/
+   Deploy: https://quicklist-pink.vercel.app/
